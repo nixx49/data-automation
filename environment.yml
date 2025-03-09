@@ -1,0 +1,33 @@
+name: myapp_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pyspark
+  - pyarrow
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - polars
+  - orjson
+  - awswrangler
+  - transformers
+  - accelerate
+  - duckdb
+  - s3fs
+  - umap-learn
+  - smart-open
+  - onnxruntime
+  - spacy
+  - seqeval
+  - gensim
+  - numba
+  - sqlalchemy
+  - pytest
+  - pip
+  - pip:
+      - neo4j
+      - datasets
+      - huggingface_hub
+      - fsspec
